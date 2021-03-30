@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="700dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialogue_info_bg"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ViMEETicon"
+        android:layout_width="168dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/vimeetlogo"
+        app:civ_border_color="#777777"
+        app:civ_border_width="2dp"
+        tools:srcCompat="@drawable/vimeetlogo" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="281dp"
+        android:layout_height="215dp"
+        android:layout_below="@+id/ViMEETicon"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="62dp"
+        android:text="This Messenger is made by Dharmik Joshi , Computer Engineering student at Vishwaniketan's Institute of Management , Engineering and Entrepreneurship.
+This is Strictly a Student Project and  no commercial use is  intended."
+        android:textAlignment="center"
+        android:textColor="#070709"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="119dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/info"
+        android:layout_alignStart="@+id/info"
+        android:layout_alignEnd="@+id/info"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="81dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Regards,
+Dharmik :)"
+        android:textColor="#3E3E3E"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView2"
+        android:layout_width="168dp"
+        android:layout_height="120dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#777777"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-29dp"
+        android:layout_marginTop="47dp"
+        android:layout_toEndOf="@+id/ViMEETicon"
+        android:src="@drawable/djphoto" />
+
+    <Button
+        android:id="@+id/btninfo_register"
+        android:layout_width="281dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/rounded_button_register_login"
+        android:text="Go back to Register Page"
+        android:textColor="#B3B2B2"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/rv_new_user"
+    android:layout_width="match_parent"
+
+    android:layout_height="70dp"
+    android:layout_marginHorizontal="8dp"
+
+
+    android:layout_marginTop="8dp"
+
+
+    android:layout_marginRight="5dp"
+    android:background="@drawable/new_msg">
+
+    <TextView
+        android:id="@+id/tv_username_new_message"
+        android:layout_width="281dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="21.5dp"
+        android:layout_marginStart="13dp"
+
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="24dp"
+        android:text=" "
+        android:textColor="#232323"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivLatest_Message_row"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#535353"
+        app:civ_border_overlay="true"
+        android:layout_toStartOf="@+id/tv_username_new_message"
+        app:srcCompat="@drawable/round_button" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginStart="7dp"-->
+    <!--       android:layout_marginVertical="5dp"-->
+    <!--        android:background="@drawable/round_button"-->
+    <!--        android:text="" />-->
+</RelativeLayout>

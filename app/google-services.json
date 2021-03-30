@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151995504122",
+    "project_id": "drjmessenger-a0f52",
+    "storage_bucket": "drjmessenger-a0f52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151995504122:android:48317ecf9ddcf3e94b8043",
+        "android_client_info": {
+          "package_name": "com.dharmikjoshi.drjmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151995504122-baddn79ui2k7rm5sehhg0qo04uirk04e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8dHacNUNRDnCucm0qJnoCE3sSVZX9HJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151995504122-baddn79ui2k7rm5sehhg0qo04uirk04e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
